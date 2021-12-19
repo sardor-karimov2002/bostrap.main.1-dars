@@ -12,6 +12,113 @@
 <body>
     
     <!-- Html code here -->
+    <div class="container">
+        <form action="index.php" method="get" autocomplete="on" class="row gx-5 mt-4 mb-3" >
+            <marquee >
+                <span style="color:blue">Sardorbek Karimov Sayitmuorod o'gli</span>
+            </marquee>
+            <div class="col-12">
+                <label class="form-label" for="saerch">Qidirish</label>
+                <input type="search" list="programming" class="form-control">
+
+                <datalist  id="programming">
+                    <option value="javascrtipt"></option>
+                    <option value="php"></option>
+                    <option value="nodejs"></option>
+                    <option value="reactjs"></option>
+                    <option value="angularjs"></option>
+                    <option value="python"></option>
+                    
+
+                </datalist>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+               
+            </div>
+            <div class="col-6">
+                <h2 class="text-center">Shaxsiy malumotlaringiz</h2>
+                <hr>
+                
+                <label tabindex="1" class="form-label" for="name">Ismingizni kiriting</label>
+                <input id="name" placeholder="Ismingizni kirinting..." class="form-control" type="text" name="ism">
+                <br>
+                <label tabindex="4" class="form-label" for="myEmail">Emailingizni  kiriting</label>
+                <input class="form-control" type="email" required>
+                <br>
+                
+                <h2>Qanday tillarni bilasz</h2>
+               <div tabindex="5" class="form-check form-check-inline ">
+                    <label class="form-check-label" for="en">Ingliz</label>
+                    <input class="fomr-check-input" name="lang" id="en" type="radio">
+                </div>
+          
+                <div class="form-check form-check-inline"> 
+                    <label class="form-check-label" for="rus">Rustili</label>
+                    <input class="fomr-check-input" name="lang" id="ru" type="radio">
+               </div>
+       
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="uz">Uzbek</label>
+                    <input class="fomr-check-input" name="lang" id="uz" type="radio">
+                 </div>
+               <div class="form-check d-block">
+                <label tabindex="7" class="form-label" for="color"> Ranglarni tanlang</label>
+                <input class="form-control form-control-color" type="color" name="color" id="color">
+               </div>
+
+ 
+            </div>
+            
+            <div class="col-6">
+                <h2 class="text-center">Qo'shimcha malumotlaringiz</h2>
+                <hr>
+                <label tabindex="2" class="form-label" for="birth_date">Tug'ilgan yilingiz</label>
+                <input id="birth_date"class="form-control" type="date" name="birth_date">
+                <br>
+                <label tabindex="3" class="form-label" for="myPic">Rasmingizni kirinting...</label>
+                <input class="form-control" type="file" name="myPic" id="myPic">
+                <br>
+                <div tabindex="6" class="form-check form-switch">
+                    <label class="form-check-label" for="jsKnow">Javascriptni bilasizmi?</label>
+                    <input class="form-check-input" type="checkbox" id="jsKnow">
+                </div>
+                
+                    <label for="region">Qaysi viyotda yashaysz?</label>
+                    <select class="forn-select" name="region" id="region">
+                        <option disabled selected>--Viloyatni tanlang--</option>
+                        <option value="1">Toshkent</option>
+                        <opion value="2">Surxondaryo</option>
+                        <option value="3">Qashqadaro</option>
+                        <option value="4">Samarqand</option>
+                        <option value="5">Jizzax</option>
+                        <option value="6">Sirdaryo</option>
+                        <option value="7">Navoiy</option>
+                        <option value="8">Buxoro</option>
+                        <option value="9">Namangan</option>
+                        <option value="10">Andijon</option>
+                        <option value="11">Farg'ona</option>
+                        <option value="12">Qoraqalpog'iston Respublikasi</option>
+                    </select>
+                
+            </div>
+            <div class="col-12 pt-4">
+                <button tabindex="8" class="btn btn-success">Send</button>
+            </div>
+        </form>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Sardorbek Karimov Sayitmuorod O'gli haqida malumot!
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Sardorbek Karimov kim?</strong> 2002-yilda 5-may da tug'ilgan ,Oilda kichik  farzand ,xozirda TDTU unversetetining 2-bosqich talabasi ,uning arzusi Frontent Developper bo'lish inshaolloh <code>@sardorbekkarimov</code>, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut iure sit nemo illo ea iste vel tenetur nulla ducimus? Dicta similique veniam alias nihil reiciendis earum eius laudantium sapiente illo?
+                </div>
+              </div>
+            </div>
+    </div>
 </body>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
